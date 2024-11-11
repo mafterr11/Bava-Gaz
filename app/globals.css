@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply font-roboto tracking-[0.5px] text-black;
+    @apply font-roboto tracking-[0.5px] text-white;
   }
 
   h1,
@@ -30,13 +30,16 @@
     @apply text-[16px] xl:text-[14px];
   }
   p {
-    @apply leading-8 text-black/80;
+    @apply leading-8 text-white/80;
   }
   a {
     @apply cursor-pointer transition-all duration-300;
   }
   label {
-    @apply mb-2 block font-normal text-black;
+    @apply mb-2 block font-normal text-white;
+  }
+  :root {
+    --radius: 0.5rem;
   }
 }
 
