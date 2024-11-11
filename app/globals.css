@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  body {
+    @apply font-roboto tracking-[0.5px] text-black;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold leading-3;
+  }
+
+  h1 {
+    @apply text-[30px] leading-[40px] xl:text-[40px];
+  }
+  h2 {
+    @apply text-[25px] leading-[40px] xl:text-[35px];
+  }
+  h3 {
+    @apply text-[25px] leading-[39px] xl:text-[30px];
+  }
+  h4 {
+    @apply text-[16px] xl:text-[14px];
+  }
+  p {
+    @apply leading-8 text-black/80;
+  }
+  a {
+    @apply cursor-pointer transition-all duration-300;
+  }
+  label {
+    @apply mb-2 block font-normal text-black;
+  }
+}
+
+
+.hover:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+
+.hover span {
+  display: inline-block;
+}
+
+.hover span:after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: #ff8300;
+  transition: 300ms;
+}
+
+.hover span:hover:after {
+  width: 100%;
+}
+
+.active-link {
+  text-decoration: underline;
+  text-decoration-color: #ff8300;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.5rem;
+}
