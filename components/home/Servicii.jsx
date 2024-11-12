@@ -22,7 +22,7 @@ const servicii = [
     name: "Revizii instalații de utilizare",
   },
   {
-    name: "Verificări/revizii/puneri în funcțiune centrale termice",
+    name: "Verificări/revizii centrale termice",
   },
   {
     name: "Consultanță tehnică",
@@ -32,8 +32,8 @@ const servicii = [
 
 export default function Servicii() {
   return (
-    <div className="container mx-auto max-w-screen-xl px-4 py-24 md:px-8">
-      <div className="flex w-full flex-col items-center justify-center gap-x-24 gap-y-8 md:flex-row">
+    <div className="container mx-auto max-w-screen-xl px-4 py-12 md:py-40 md:px-8">
+      <div className="flex w-full flex-col-reverse items-center justify-center gap-x-24 gap-y-8 md:flex-row">
         {/* Imagine container */}
         <div className="flex h-60 w-full justify-center md:h-[55vh] md:justify-start">
           <div className="relative h-full w-[80%] border-2 border-orange md:w-full">
@@ -48,24 +48,24 @@ export default function Servicii() {
         </div>
         {/* Text container */}
         <div className="flex flex-col gap-y-3">
-          <div>
+          <div className="max-md:text-center">
             <h3 className="text-orange">Bava Gaz Construct SRL</h3>
             <h2>
               Instalații De Gaze Și Servicii Sanitare - Oricând La Dispoziția
               Dumneavoastră
             </h2>
           </div>
-          <p className="mb-2">
+          <p className="mb-2 max-md:text-center">
             Specializați în instalații de gaze și sisteme sanitare, oferim
             servicii de încredere pentru siguranța și confortul casei dvs.
           </p>
-          <ul className="mb-5 list-disc pl-5 marker:text-orange">
+          <ul className="mb-5 md:list-disc pl-5 marker:text-orange flex flex-col max-md:items-center">
             {servicii.map((serviciu, index) => {
               return <li key={index}>{serviciu.name}</li>;
             })}
           </ul>
 
-          <div>
+          <div className="max-md:text-center">
             <Link href={"/servicii"}>
             <Button>Citește mai mult</Button>
             </Link>
