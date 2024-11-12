@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply font-roboto tracking-[0.5px] text-white;
+    @apply font-roboto bg-grey tracking-[0.5px] text-white;
   }
 
   h1,
