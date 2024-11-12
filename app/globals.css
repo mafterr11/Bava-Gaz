@@ -24,7 +24,7 @@
     @apply text-[25px] leading-[40px] xl:text-[35px];
   }
   h3 {
-    @apply text-[25px] leading-[39px] xl:text-[30px];
+    @apply text-[25px] leading-[30px] md:leading-[39px] xl:text-[30px];
   }
   h4 {
     @apply text-[16px] xl:text-[14px];
