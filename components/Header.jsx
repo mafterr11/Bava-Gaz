@@ -8,10 +8,10 @@ import { Clock9, MapPin, PhoneCall } from "lucide-react";
 const Header = () => {
   return (
     <header
-      className={` fixed left-0 right-0 top-0 text-white z-50 w-full transition-all duration-200`}
+      className={` fixed left-0 right-0 top-0 text-white border-b border-orange z-50 w-full transition-all duration-200`}
     >
       {/* Top container */}
-      <div className="flex py-2.5 items-center justify-center px-10 md:px-16 md:max-lg:justify-between xl:gap-x-32 bg-gradient-to-t from-blue to-blue/90 w-full font-semibold">
+      <div className="flex py-2.5 items-center justify-center px-10 md:px-16 md:max-lg:justify-between xl:gap-x-32 bg-[#082d64] w-full font-semibold">
         {/* phone */}
         <div className="flex items-center gap-x-2"><PhoneCall /> <span className="text-orange text-lg font-bold">+40.755.313.662</span></div>
         {/* adress */}
