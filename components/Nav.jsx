@@ -64,7 +64,11 @@ const Nav = ({ containerStyles, linkStyles }) => {
                   <NavigationMenuTrigger as="span">
                     <Link
                       href="/servicii"
-                      className={`${currentRoute === link.path ? "text-lg capitalize underline decoration-accent decoration-2 underline-offset-[0.5rem] hover:scale-[0.97]" : "hover text-lg capitalize hover:scale-[0.97]"}`}
+                      className={`${
+                        currentRoute === link.path
+                          ? "text-lg capitalize underline decoration-accent decoration-2 underline-offset-[0.5rem] hover:scale-[0.97] active-link"
+                          : "hover text-lg capitalize hover:scale-[0.97]"
+                      }`}
                     >
                       <span>{link.name}</span>
                     </Link>
@@ -97,7 +101,11 @@ const Nav = ({ containerStyles, linkStyles }) => {
             <Link
               key={index}
               href={link.path}
-              className={`${linkStyles} ${currentRoute === link.path ? "text-lg capitalize underline decoration-accent decoration-2 underline-offset-[0.5rem] hover:scale-[0.97]" : "hover text-lg capitalize hover:scale-[0.97]"}`}
+              className={`${linkStyles} ${
+                currentRoute === link.path
+                  ? "active-link transition-all ease-in-out duration-500 text-lg capitalize underline decoration-accent decoration-2 underline-offset-[0.5rem] hover:scale-[0.97]"
+                  : "hover text-lg capitalize hover:scale-[0.97]"
+              }`}
             >
               <span>{link.name}</span>
             </Link>

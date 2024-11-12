@@ -24,9 +24,19 @@ module.exports = {
   				light: '#176aac'
   			},
   			orange: {
-  				DEFAULT: '#eb6224',
+  				DEFAULT: '#fd8300',
   				light: '#f1952f'
-  			}
+  			},
+			  body: "#e5e5e5",
+			  white: "#fff",
+			  black: {
+				DEFAULT: "#0d0c0b",
+				heavy: "#000000",
+			  },
+			  grey: {
+				DEFAULT: "#232323",
+				light: "#2A3439",
+			  },
   		},
   		fontFamily: {
   			nunitoSans: ["var(--font-nunito-sans)", "sans-serif"],
@@ -36,7 +46,10 @@ module.exports = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		  backgroundImage: {
+			'hero': 'url(/tools.webp)',
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],

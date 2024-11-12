@@ -71,5 +71,15 @@
   text-decoration: underline;
   text-decoration-color: #ff8300;
   text-decoration-thickness: 2px;
-  text-underline-offset: 0.5rem;
+  text-underline-offset: 1rem;
+}
+
+/* Hide scrollbar but allow scrolling */
+html {
+  scrollbar-width: none; /* For Firefox */
+}
+
+/* Chrome, Safari, and Edge */
+html::-webkit-scrollbar {
+  display: none;
 }
