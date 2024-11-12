@@ -11,7 +11,7 @@ const Header = () => {
       className={`fixed left-0 right-0 top-0 z-50 w-full border-b border-orange text-white transition-all duration-200`}
     >
       {/* Top container */}
-      <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-2 md:py-2.5 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:max-lg:justify-between xl:gap-x-32">
+      <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-2 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:py-2.5 md:max-lg:justify-between xl:gap-x-32">
         {/* phone */}
         <div className="flex items-center gap-x-2">
           <PhoneCall />{" "}
@@ -34,7 +34,7 @@ const Header = () => {
       </div>
       {/* Bottom container */}
       <div className="w-full bg-black-heavy">
-        <div className="container flex w-[85%] items-center justify-between px-0 py-3 md:py-5 md:px-16 md:max-lg:justify-between xl:gap-x-32">
+        <div className="container flex w-[85%] items-center justify-between px-0 py-3 md:px-16 md:py-5 md:max-lg:justify-between xl:gap-x-32">
           {/* logo */}
           <Link href="/" className="flex items-center justify-center gap-x-4">
             <Image
