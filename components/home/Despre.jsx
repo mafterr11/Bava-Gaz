@@ -11,22 +11,28 @@ export default function Despre() {
           <div className="mb-12">
             <h2 className="mb-3 text-orange">Cine suntem?</h2>
             <p className="text-sm md:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-              doloribus possimus, accusamus saepe repudiandae veniam. Ullam
-              atque dolorem aut aliquid, saepe deleniti impedit pariatur saepe
-              deleniti impedit pariatur doloribus possimus vel alias non
-              exercitationem.
+              Bava Gaz Construct SRL - lider în instalații de gaze, electrice și
+              sanitare, precum și în automatizări și consultanță tehnică. Ne
+              dedicăm să oferim soluții moderne și sigure, adaptate nevoilor
+              fiecărui client. Cu o echipă de profesioniști cu experiență și
+              certificări relevante, asigurăm standarde într-un domeniu în care
+              siguranța este esențială. Specializați în extinderi rețele de gaze
+              naturale, instalații sanitare și termice, precum și verificări și
+              revizii pentru instalații de utilizare, oferim servicii
+              personalizate pentru fiecare proiect.
             </p>
           </div>
           {/* Second */}
           <div>
             <h2 className="mb-3 text-orange">De ce să ne alegeți?</h2>
             <p className="text-sm md:text-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-              doloribus possimus, accusamus saepe repudiandae veniam. Ullam
-              atque dolorem aut aliquid, saepe deleniti impedit pariatur saepe
-              deleniti impedit pariatur doloribus possimus vel alias non
-              exercitationem.
+              Avem o experiență vastă în domeniul instalațiilor de gaze și
+              sanitare, garantând lucrări durabile și eficiente. De la
+              proiectare până la execuție și verificări, suntem alături de dvs.
+              în fiecare etapă a proiectului. Respectăm toate normele legale și
+              oferim soluții ce pun pe primul loc confortul și siguranța casei
+              sau afacerii dvs. Vă sprijinim să luați deciziile corecte pentru
+              proiectele dvs. de infrastructură.
             </p>
           </div>
         </div>
