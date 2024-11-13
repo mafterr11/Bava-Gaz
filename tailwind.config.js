@@ -49,6 +49,7 @@ module.exports = {
       },
       backgroundImage: {
         hero: "url(/hero.webp)",
+        meeting2: "url(/meeting2.webp)",
       },
     },
   },

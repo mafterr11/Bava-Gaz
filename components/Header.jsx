@@ -34,7 +34,7 @@ const Header = () => {
       </div>
       {/* Bottom container */}
       <div className="w-full bg-black-heavy">
-        <div className="container flex w-[85%] items-center justify-between px-0 py-3 md:px-16 md:py-5 md:max-lg:justify-between xl:gap-x-32">
+        <div className="container flex w-[85%] items-center justify-between px-0 py-3 md:px-16 md:py-4 md:max-lg:justify-between xl:gap-x-32">
           {/* logo */}
           <Link href="/" className="flex items-center justify-center gap-x-4">
             <Image
