@@ -31,8 +31,8 @@ const servicii = [
 
 export default function Servicii() {
   return (
-    <div className="bg-meeting2 bg-cover bg-center relative py-12 md:py-32 mt-20 mb-40">
-      <div className="absolute inset-0 bg-blue/75"></div>
+    <div className="bg-meeting2 bg-cover bg-fixed relative py-12 md:py-32 mt-20 mb-40">
+      <div className="absolute inset-0 bg-blue/80"></div>
       <div className="relative container mx-auto max-w-screen-xl px-4  md:px-8 ">
         <div className="flex w-full flex-col-reverse items-center justify-center gap-x-24 gap-y-8 md:flex-row">
           {/* Imagine container */}
