@@ -35,7 +35,7 @@ export default function Despre() {
           <div className="relative h-full w-[80%] border-2 border-orange md:w-full">
             <Image
               alt="De ce sa alegeti Bava Gas Grup"
-              className="absolute left-3 top-3 h-full w-full object-cover object-center md:left-6 md:top-6"
+              className="absolute right-3 top-3 h-full w-full object-cover object-center md:right-6 md:top-6"
               width={800}
               height={800}
               src="/meeting.webp"
