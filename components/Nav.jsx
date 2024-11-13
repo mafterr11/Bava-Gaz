@@ -66,9 +66,9 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       href="/servicii"
                       className={`${
                         currentRoute === link.path
-                          ? "text-lg capitalize underline decoration-accent decoration-2 underline-offset-[0.5rem] hover:scale-[0.97] active-link"
+                          ? "decoration-accent active-link text-lg capitalize underline decoration-2 underline-offset-[0.5rem] hover:scale-[0.97]"
                           : "hover text-lg capitalize hover:scale-[0.97]"
-                      }`}
+                      } font-medium`}
                     >
                       <span>{link.name}</span>
                     </Link>
@@ -103,9 +103,9 @@ const Nav = ({ containerStyles, linkStyles }) => {
               href={link.path}
               className={`${linkStyles} ${
                 currentRoute === link.path
-                  ? "active-link transition-all ease-in-out duration-500 text-lg capitalize underline decoration-accent decoration-2 underline-offset-[0.5rem] hover:scale-[0.97]"
+                  ? "active-link decoration-accent text-lg capitalize underline decoration-2 underline-offset-[0.5rem] transition-all duration-500 ease-in-out hover:scale-[0.97]"
                   : "hover text-lg capitalize hover:scale-[0.97]"
-              }`}
+              } font-medium`}
             >
               <span>{link.name}</span>
             </Link>
