@@ -6,7 +6,7 @@ export default function Despre() {
       {/* container */}
       <div className="flex w-full flex-col items-center justify-center gap-x-8 gap-y-8 md:flex-row">
         {/* Text Container */}
-        <div className="w-full max-w-lg text-balance max-xl:text-center md:w-[80%]">
+        <div className="w-full max-w-xl text-balance max-xl:text-center md:w-[80%]">
           {/* First */}
           <div className="mb-12">
             <h2 className="mb-3 text-orange">Cine suntem?</h2>
