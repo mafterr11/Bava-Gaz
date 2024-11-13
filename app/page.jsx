@@ -1,3 +1,4 @@
+import Cta from "@/components/home/CTA";
 import Despre from "@/components/home/Despre";
 import Hero from "@/components/home/Hero";
 import Review from "@/components/home/Review";
@@ -10,6 +11,7 @@ export default function Home() {
       <Despre />
       <Servicii />
       <Review/>
+      <Cta />
     </>
   );
 }

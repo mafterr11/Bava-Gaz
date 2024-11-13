@@ -20,7 +20,7 @@ module.exports = {
       },
       colors: {
         blue: {
-          DEFAULT: "#082d64",
+          DEFAULT: "#16243b",
           light: "#176aac",
         },
         orange: {
@@ -50,6 +50,7 @@ module.exports = {
       backgroundImage: {
         hero: "url(/hero.webp)",
         meeting2: "url(/meeting2.webp)",
+        tools: "url(/tools.webp)",
       },
     },
   },
