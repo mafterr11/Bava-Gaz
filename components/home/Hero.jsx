@@ -14,11 +14,15 @@ export default function Hero() {
             Instalații Gaz, Electrice, Sanitare, Automatizări, Consultanță,
             Proiectare
           </h1>
-          <Link href="">
             <Button>
-              <span>+40.755.313.662</span>
+            <a
+            href="tel:+40755313662"
+            target="blank"
+            className="text-lg"
+          >
+            +40.755.313.662
+          </a>
             </Button>
-          </Link>
         </div>
       </div>
     </div>
