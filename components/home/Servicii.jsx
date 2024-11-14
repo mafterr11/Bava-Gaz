@@ -47,12 +47,16 @@ export default function Servicii() {
           {/* Text container */}
           <div className="flex flex-col gap-y-3">
             <div className="max-md:text-center">
-              <h3 className="text-orange">Bava Gaz Construct SRL</h3>
+              <h3 className="relative mb-6 inline-block">
+                Bava Gaz Construct SRL
+                <span className="absolute -bottom-2 left-0 h-[3px] w-24 transform bg-orange max-md:left-1/2 max-md:-translate-x-1/2"></span>
+              </h3>
               <h2>
                 Instalații De Gaze Și Servicii Sanitare - Oricând La Dispoziția
                 Dumneavoastră
               </h2>
             </div>
+
             <p className="mb-2 max-md:text-center">
               Specializați în instalații de gaze și sisteme sanitare, oferim
               servicii de încredere pentru siguranța și confortul casei dvs.
