@@ -31,7 +31,7 @@ export default function Servicii() {
     <section className="relative mb-14 mt-20 bg-meeting2 bg-cover bg-fixed py-12 md:py-32 xl:mb-32">
       <div className="absolute -inset-[1px] bg-blue/95" />
       <div className="container relative mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="flex w-full flex-col-reverse items-center justify-center gap-x-24 gap-y-8 md:flex-row">
+        <div className="flex w-full flex-col-reverse items-center justify-center gap-x-28 gap-y-8 md:flex-row">
           {/* Imagine container */}
           <div className="flex h-60 w-full justify-center md:h-[55vh] md:justify-start">
             <div className="relative h-full w-[80%] border-2 border-orange md:w-full">
@@ -49,7 +49,7 @@ export default function Servicii() {
             <div className="max-md:text-center">
               <h3 className="relative mb-6 inline-block">
                 Bava Gaz Construct SRL
-                <span className="absolute -bottom-2 left-0 h-[3px] w-24 transform bg-orange max-md:left-1/2 max-md:-translate-x-1/2"></span>
+                <span className="absolute -bottom-2 left-0 h-[3px] w-[8.4rem] transform bg-orange max-md:left-1/2 max-md:-translate-x-1/2"></span>
               </h3>
               <h2>
                 Instalații De Gaze Și Servicii Sanitare - Oricând La Dispoziția

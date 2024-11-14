@@ -8,7 +8,7 @@ import { Clock9, MapPin, PhoneCall } from "lucide-react";
 const Header = () => {
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-50 w-full text-white transition-all duration-200`}
+      className={`fixed left-0 right-0 top-0 z-50 w-full text-white transition-all duration-200 font-nunitoSans`}
     >
       {/* Top container */}
       <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-1.5 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:py-2.5 md:max-lg:justify-between xl:gap-x-32">
@@ -45,7 +45,7 @@ const Header = () => {
               alt="Bava Gaz Construct logo"
               className="border-accent flex rounded-[50%] border-2"
             />
-            <h3 className="font-nunitoSans">
+            <h3>
               <span className="text-orange">Bava</span> Gaz Construct
             </h3>
           </Link>
