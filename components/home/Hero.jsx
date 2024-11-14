@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function Hero() {
   return (
-    <div className="relative mt-[9.25rem] h-screen w-screen bg-hero bg-cover bg-[bottom_center] bg-no-repeat">
+    <section className="relative mt-[9.25rem] h-screen w-screen bg-hero bg-cover bg-[bottom_center] bg-no-repeat">
       {/* Black overlay */}
       <div className="absolute inset-0 bg-[#0D0C0BA6]" />
       {/* Hero container */}
@@ -21,6 +21,6 @@ export default function Hero() {
           </Button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

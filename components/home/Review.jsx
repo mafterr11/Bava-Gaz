@@ -17,7 +17,7 @@ export default function Review() {
     },
   ];
   return (
-    <div>
+    <section>
       <div className="mb-24 text-center">
         <h3 className="text-orange">Recenzii</h3>
         <h2>Clienții noștri, <span className="underline decoration-orange underline-offset-[4px]">prioritatea noastră</span></h2>
@@ -50,6 +50,6 @@ export default function Review() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

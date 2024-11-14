@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import { Nunito_Sans, Roboto } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${nunitoSans.variable} ${roboto.variable} antialiased`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
