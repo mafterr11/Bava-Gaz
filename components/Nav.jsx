@@ -31,24 +31,30 @@ export const links = [
 
 const dropdownLinks = [
   {
-    path: "/servicii#execuție-construcții-civile",
-    name: "Execuție Construcții Civile",
+    path: "/servicii#extinderi-rețea-gaze-naturale",
+    name: "Extinderi rețea gaze naturale",
   },
   {
-    path: "/servicii#execuție-construcții-industriale",
-    name: "Execuție Construcții Industriale",
+    path: "/servicii#branșamente-gaze-naturale",
+    name: "Branșamente gaze naturale",
   },
   {
-    path: "/servicii#supervizare-lucrări-de-execuție",
-    name: "Supervizare Lucrări De Execuție",
+    path: "/servicii#instalații-gaze-naturale",
+    name: "Instalații gaze naturale",
   },
   {
-    path: "/servicii#verificare-calitate-lucrări-în-execuție",
-    name: "Verificare Calitate Lucrări În Execuție",
+    path: "/servicii#instalații-sanitare-și-termice",
+    name: "Instalații sanitare și termice",
   },
-  { path: "/servicii#planificarea-execuției", name: "Planificarea Execuției" },
-  { path: "/servicii#servicii-RTE", name: "Servicii RTE" },
-  { path: "/servicii#dirigenție-de-șantier", name: "Dirigenție De Șantier" },
+  {
+    path: "/servicii#verificări-și-revizii-instalații-de-utilizare",
+    name: "Verificări și revizii instalații de utilizare",
+  },
+  {
+    path: "/servicii#verificări-și-revizii-centrale-termice",
+    name: "Verificări și revizii centrale termice",
+  },
+  { path: "/servicii#consultanță-tehnică", name: "Consultanță tehnică" },
 ];
 
 const Nav = ({ containerStyles, linkStyles }) => {
@@ -83,7 +89,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                       >
                         <NavigationMenuLink>
                           <div className="my-6 flex w-[21rem] gap-x-[4px] text-center">
-                            <span className="text-accent">&#9679;</span>
+                            <span className="text-orange">&#9679;</span>
                             <div className="hover">
                               <span>{dropdownLink.name}</span>
                             </div>

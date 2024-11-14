@@ -13,16 +13,13 @@ const servicii = [
     name: "Instalații gaze naturale",
   },
   {
-    name: "Instalații sanitare/termice",
+    name: "Instalații sanitare și termice",
   },
   {
-    name: "Verificări instalații de utilizare",
+    name: "Verificări și revizii instalații de utilizare",
   },
   {
-    name: "Revizii instalații de utilizare",
-  },
-  {
-    name: "Verificări/revizii centrale termice",
+    name: "Verificări și revizii centrale termice",
   },
   {
     name: "Consultanță tehnică",
@@ -31,9 +28,9 @@ const servicii = [
 
 export default function Servicii() {
   return (
-    <div className="bg-meeting2 bg-cover bg-fixed relative py-12 md:py-32 mt-20 mb-14 xl:mb-32">
-      <div className="absolute -inset-[1px] bg-blue/95"/>
-      <div className="relative container mx-auto max-w-screen-xl px-4  md:px-8 ">
+    <div className="relative mb-14 mt-20 bg-meeting2 bg-cover bg-fixed py-12 md:py-32 xl:mb-32">
+      <div className="absolute -inset-[1px] bg-blue/95" />
+      <div className="container relative mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="flex w-full flex-col-reverse items-center justify-center gap-x-24 gap-y-8 md:flex-row">
           {/* Imagine container */}
           <div className="flex h-60 w-full justify-center md:h-[55vh] md:justify-start">
@@ -60,7 +57,7 @@ export default function Servicii() {
               Specializați în instalații de gaze și sisteme sanitare, oferim
               servicii de încredere pentru siguranța și confortul casei dvs.
             </p>
-            <ul className="mb-5 flex flex-col pl-5 marker:text-orange max-md:items-center md:list-disc">
+            <ul className="mb-5 flex flex-col space-y-1 pl-5 marker:text-orange max-md:items-center md:list-disc">
               {servicii.map((serviciu, index) => {
                 return <li key={index}>{serviciu.name}</li>;
               })}
