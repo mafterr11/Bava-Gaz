@@ -11,7 +11,7 @@ import { constructMetadata } from "@/lib/utils";
 
 const Servicii = () => {
   return (
-    <div className="pt-[8rem]">
+    <div className="pt-[6rem] xl:pt-[8rem]">
       <ServiciiContent />
     </div>
   );
