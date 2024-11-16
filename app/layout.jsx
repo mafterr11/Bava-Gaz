@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body className={`${nunitoSans.variable} ${roboto.variable} antialiased`}>
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

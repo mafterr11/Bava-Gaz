@@ -21,7 +21,7 @@ export const ServiciiContent = () => {
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Extinderi rețea gaze naturale
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Extinderea rețelelor de
             gaze naturale este o etapă esențială pentru a aduce confortul și
             eficiența gazului natural mai aproape de dumneavoastră. Echipa
@@ -31,7 +31,7 @@ export const ServiciiContent = () => {
             inițială a locației până la finalizarea lucrării, ne asigurăm că
             fiecare pas este realizat cu profesionalism.
           </p>{" "}
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Pentru fiecare proiect
             de extindere, evaluăm cu atenție cerințele tehnice și locale,
             identificăm soluțiile optime și utilizăm tehnologii moderne pentru a
@@ -41,7 +41,7 @@ export const ServiciiContent = () => {
             să îndeplinească cele mai înalte standarde de calitate și siguranță.
           </p>
           {/* Next Container*/}
-          <div className="">
+          <div>
             <h3 className="mb-4 mt-8 text-center text-2xl text-orange xl:text-start">
               Avantaje:
             </h3>
@@ -63,7 +63,7 @@ export const ServiciiContent = () => {
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Branșamente gaze naturale
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Branșamentele sunt
             prima conexiune dintre rețeaua de distribuție a gazelor naturale și
             locuința dumneavoastră. Oferim servicii complete de realizare a
@@ -73,7 +73,7 @@ export const ServiciiContent = () => {
             dumneavoastră. Echipa noastră vă ghidează pas cu pas, asigurându-se
             că proiectul este realizat eficient și fără întârzieri.
           </p>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> În plus, utilizăm
             materiale de înaltă calitate și echipamente moderne pentru a garanta
             durabilitatea și siguranța sistemului dumneavoastră de gaz.
@@ -107,7 +107,7 @@ export const ServiciiContent = () => {
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Instalații gaze naturale
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Instalațiile de gaze
             naturale reprezintă o componentă critică pentru siguranța și
             confortul unei locuințe. Realizăm proiectarea, execuția și punerea
@@ -117,7 +117,7 @@ export const ServiciiContent = () => {
             dumneavoastră, având grijă să optimizăm eficiența.
           </p>
 
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Serviciile noastre
             includ o analiză detaliată a cerințelor clientului, utilizarea celor
             mai bune echipamente disponibile pe piață și o abordare centrată pe
@@ -147,7 +147,7 @@ export const ServiciiContent = () => {
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Instalații sanitare și termice
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Oferim soluții complete
             pentru instalațiile sanitare și termice, de la proiectare până la
             montajul final. Serviciile noastre includ lucrări pentru alimentare
@@ -155,7 +155,7 @@ export const ServiciiContent = () => {
             climatizare. Cu o atenție deosebită la detalii, garantăm soluții
             durabile și eficiente energetic.
           </p>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Pe lângă execuția
             propriu-zisă, oferim și consultanță personalizată pentru a
             identifica soluțiile optime pentru fiecare proiect. Utilizăm
@@ -185,7 +185,7 @@ export const ServiciiContent = () => {
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Verificări și revizii instalații de utilizare
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Realizăm verificări și
             revizii periodice pentru instalațiile de gaze naturale,
             asigurându-ne că acestea funcționează în parametri optimi. Inspectăm
@@ -223,7 +223,7 @@ export const ServiciiContent = () => {
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Verificări și revizii centrale termice
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Pentru o eficiență
             maximă și o durată de viață crescută a centralei termice, este
             importantă realizarea verificărilor și reviziilor periodice. Echipa
@@ -231,7 +231,7 @@ export const ServiciiContent = () => {
             termice de orice tip. Asigurăm o diagnosticare completă și soluții
             rapide pentru orice problemă identificată.
           </p>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             {" "}
             <span className="text-orange">&#9679;</span> Lucrăm cu echipamente
             moderne pentru a asigura o funcționare optimă și pentru a reduce
@@ -255,12 +255,12 @@ export const ServiciiContent = () => {
             </ul>
           </div>
         </div>
-        {/* Servicii dirigenție de șantier 6 */}
-        <div id="consultanță-tehnică">
+        {/* Consultanță tehnică */}
+        <div id="consultanță-tehnică"  className="max-md:text-center mb-24 scroll-mt-28 xl:scroll-mt-32">
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Consultanță tehnică
           </h3>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Indiferent de
             complexitatea proiectului, echipa noastră de experți este pregătită
             să vă ofere consultanță tehnică personalizată. Vă sprijinim în
@@ -268,7 +268,7 @@ export const ServiciiContent = () => {
             dumneavoastră, analizând fiecare detaliu pentru a identifica soluții
             inovative.
           </p>
-          <p className="text-balance">
+          <p className="max-md:text-balance">
             <span className="text-orange">&#9679;</span> Consultanța noastră
             acoperă toate etapele proiectului, de la planificare până la
             implementare. Oferim analize detaliate ale nevoilor clientului,
