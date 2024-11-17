@@ -27,7 +27,7 @@
     @apply text-[25px] leading-[30px] md:leading-[39px] xl:text-[30px];
   }
   h4 {
-    @apply text-[16px] xl:text-[14px];
+    @apply text-[18px] xl:text-[14px];
   }
   p {
     @apply leading-8 text-white/80;

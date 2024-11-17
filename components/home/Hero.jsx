@@ -3,11 +3,11 @@ import { Button } from "../ui/button";
 
 export default function Hero() {
   return (
-    <section className="relative mt-[9.25rem] h-screen w-screen bg-hero bg-cover bg-[bottom_center] bg-no-repeat">
+    <section className="relative mt-[9.25rem] h-screen w-screen bg-hero bg-cover bg-[bottom_center] bg-no-repeat max-md:mt-[7.8rem]">
       {/* Black overlay */}
       <div className="absolute inset-0 bg-[#0D0C0BA6]" />
       {/* Hero container */}
-      <div className="flex flex-col items-center justify-center pt-40 xl:h-full xl:px-20 xl:pb-20 xl:pt-0 2xl:px-0">
+      <div className="flex h-[85vh] flex-col items-center justify-center">
         <div className="relative z-30 text-center font-nunitoSans">
           <h3 className="mb-3 font-semibold text-orange">Bava Gaz Construct</h3>
           <h1 className="mb-6 px-2 md:max-xl:px-7 xl:max-w-5xl">

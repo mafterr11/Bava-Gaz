@@ -2,20 +2,12 @@ export const ServiciiContent = () => {
   return (
     <div className="mb-[4rem] mt-[4rem] xl:mb-[11rem]">
       {/* Header */}
-      <div className="mb-[4rem] mt-[4rem] text-center">
-        <h3 className="leading-relaxed text-orange">
-          Servicii - Bava Gaz Construct
-        </h3>
-        <h3 className="text-2xl font-normal text-white/90">
-          Lucrăm alături de tine pentru a crea soluții sigure, moderne și
-          adaptate nevoilor tale
-        </h3>
-      </div>
+     
       {/* Content container */}
       <div className="mx-auto px-3 xl:container md:px-6 xl:w-[90%]">
         {/*  Extinderi rețea gaze naturale */}
         <div
-          className="max-md:text-center mb-24 scroll-mt-40 xl:scroll-mt-32"
+          className="max-md:text-center mb-24 scroll-mt-40 xl:scroll-mt-40"
           id="extinderi-rețea-gaze-naturale"
         >
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
@@ -57,7 +49,7 @@ export const ServiciiContent = () => {
         </div>
         {/* Branșamente gaze naturale */}
         <div
-          className="max-md:text-center mb-24 scroll-mt-28 xl:scroll-mt-32"
+          className="max-md:text-center mb-24 scroll-mt-32 xl:scroll-mt-40"
           id="branșamente-gaze-naturale"
         >
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
@@ -101,7 +93,7 @@ export const ServiciiContent = () => {
         </div>
         {/* Instalații gaze naturale */}
         <div
-          className="max-md:text-center mb-24 scroll-mt-[5.5rem] xl:scroll-mt-32"
+          className="max-md:text-center mb-24 scroll-mt-[5.5rem] xl:scroll-mt-40"
           id="instalații-gaze-naturale"
         >
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
@@ -141,7 +133,7 @@ export const ServiciiContent = () => {
         </div>
         {/* Instalații sanitare și termice */}
         <div
-          className="max-md:text-center mb-24 scroll-mt-28 xl:scroll-mt-32"
+          className="max-md:text-center mb-24 scroll-mt-32 xl:scroll-mt-40"
           id="instalații-sanitare-și-termice"
         >
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
@@ -179,7 +171,7 @@ export const ServiciiContent = () => {
         </div>
         {/* Verificări și revizii instalații de utilizare */}
         <div
-          className="max-md:text-center mb-24 scroll-mt-28 xl:scroll-mt-32"
+          className="max-md:text-center mb-24 scroll-mt-32 xl:scroll-mt-40"
           id="verificări-și-revizii-instalații-de-utilizare"
         >
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
@@ -217,7 +209,7 @@ export const ServiciiContent = () => {
         </div>
         {/* Verificări și revizii centrale termice */}
         <div
-          className="max-md:text-center mb-24 scroll-mt-28 xl:scroll-mt-32"
+          className="max-md:text-center mb-24 scroll-mt-32 xl:scroll-mt-40"
           id="verificări-și-revizii-centrale-termice"
         >
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
@@ -256,7 +248,7 @@ export const ServiciiContent = () => {
           </div>
         </div>
         {/* Consultanță tehnică */}
-        <div id="consultanță-tehnică"  className="max-md:text-center mb-24 scroll-mt-28 xl:scroll-mt-32">
+        <div id="consultanță-tehnică"  className="max-md:text-center mb-24 scroll-mt-32 xl:scroll-mt-40">
           <h3 className="mb-8 text-center text-2xl text-orange underline underline-offset-4 xl:text-start">
             Consultanță tehnică
           </h3>

@@ -54,7 +54,7 @@ const Header = () => {
           {/* mobile nav */}
           <NavMobile
             containerStyles="xl:hidden"
-            iconStyles="text-3xl text-accent"
+            iconStyles="text-3xl text-orange"
             linkStyles="uppercase"
           />
         </div>
