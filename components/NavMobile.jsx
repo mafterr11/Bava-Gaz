@@ -48,17 +48,17 @@ export const links = [
   {
     path: "/",
     name: "acasă",
-    icon: <HousePlug size={35}/>,
+    icon: <HousePlug size={32}/>,
   },
   {
     path: "/servicii",
     name: "servicii",
-    icon: <PlugZap size={35}/>,
+    icon: <PlugZap size={32}/>,
   },
   {
     path: "/contact",
     name: "contact",
-    icon: <SquareUserRound size={35}/>,
+    icon: <SquareUserRound size={32}/>,
   },
 ];
 
