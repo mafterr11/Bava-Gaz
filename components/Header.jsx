@@ -11,7 +11,7 @@ const Header = () => {
       className={`fixed left-0 right-0 top-0 z-50 w-full text-white transition-all duration-200 font-nunitoSans`}
     >
       {/* Top container */}
-      <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-1.5 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:py-2.5 md:max-lg:justify-between xl:gap-x-32">
+      <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-1.5 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:py-2.5 md:max-xl:justify-between xl:gap-x-32">
         {/* phone */}
         <div className="flex items-center gap-x-2">
           <PhoneCall />{" "}
@@ -24,7 +24,7 @@ const Header = () => {
           </a>
         </div>
         {/* adress */}
-        <p className="text-md hidden items-center gap-x-2 md:flex">
+        <p className="text-md hidden items-center gap-x-2 xl:flex">
           <MapPin /> Str. Costache Sibiceanu NR.8, SECTOR 2 BUCUREȘTI, ROMÂNIA
         </p>
         {/* program */}
@@ -54,7 +54,7 @@ const Header = () => {
           {/* mobile nav */}
           <NavMobile
             containerStyles="xl:hidden"
-            iconStyles="text-3xl text-orange"
+            iconStyles="text-orange"
             linkStyles="uppercase"
           />
         </div>

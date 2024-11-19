@@ -1,8 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { IoCloseOutline, IoHome, IoChatbubblesSharp } from "react-icons/io5";
-import { MdConstruction } from "react-icons/md";
+import { IoCloseOutline, IoChatbubblesSharp } from "react-icons/io5";
 import { RiMenu2Line } from "react-icons/ri";
 import {
   Drawer,
@@ -16,6 +15,7 @@ import {
 } from "@/components/ui/drawer";
 import Image from "next/image";
 import { Button } from "./ui/button";
+import { HousePlug, PlugZap, SquareUserRound } from "lucide-react";
 
 const dropdownLinks = [
   {
@@ -48,17 +48,17 @@ export const links = [
   {
     path: "/",
     name: "acasă",
-    icon: <IoHome />,
+    icon: <HousePlug size={35}/>,
   },
   {
     path: "/servicii",
     name: "servicii",
-    icon: <MdConstruction />,
+    icon: <PlugZap size={35}/>,
   },
   {
     path: "/contact",
     name: "contact",
-    icon: <IoChatbubblesSharp />,
+    icon: <SquareUserRound size={35}/>,
   },
 ];
 

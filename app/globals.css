@@ -38,6 +38,9 @@
   label {
     @apply mb-2 block font-normal text-white;
   }
+  .subtitle {
+    @apply text-[18px] leading-[30px] md:leading-[39px] xl:text-[25px]
+  }
   :root {
     --radius: 0.5rem;
   }
