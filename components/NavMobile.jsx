@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { IoCloseOutline, IoChatbubblesSharp } from "react-icons/io5";
+import { IoCloseOutline } from "react-icons/io5";
 import { RiMenu2Line } from "react-icons/ri";
 import {
   Drawer,
@@ -48,17 +48,17 @@ export const links = [
   {
     path: "/",
     name: "acasă",
-    icon: <HousePlug size={32}/>,
+    icon: <HousePlug size={34} />,
   },
   {
     path: "/servicii",
     name: "servicii",
-    icon: <PlugZap size={32}/>,
+    icon: <PlugZap size={34} />,
   },
   {
     path: "/contact",
     name: "contact",
-    icon: <SquareUserRound size={32}/>,
+    icon: <SquareUserRound size={34} />,
   },
 ];
 
@@ -87,7 +87,7 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
       <aside
         className={`${
           isMenuOpen ? "top-0" : "-top-full"
-        } fixed inset-0 z-20 h-full bg-grey p-10 transition-all duration-500`}
+        } fixed inset-0 z-20 h-full bg-neutral-900 p-8 transition-all duration-500`}
       >
         <div className="flex h-full flex-col items-center justify-between text-white">
           {/* close btn */}
@@ -101,9 +101,9 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
           <Link
             href={"/"}
             onClick={() => setIsMenuOpen(false)}
-            className="flex flex-col-reverse items-center"
+            className="flex flex-col items-center"
           >
-            <h2>
+            <h2 className="text-center text-lg font-semibold">
               <span className="text-orange">Bava</span> Gaz Construct
             </h2>
             <Image
@@ -114,78 +114,82 @@ const NavMobile = ({ containerStyles, iconStyles, linkStyles }) => {
             />
           </Link>
           {/* links */}
-          <div className="flex flex-col gap-y-8">
+          <div className="flex flex-col items-center gap-y-6 mt-6">
             {links.map((link, index) => {
               if (link.path === "/servicii") {
                 return (
-                  <div key={index}>
-                    <div
+                  <Drawer key={index}>
+                    <DrawerTrigger
                       onClick={toggleServicii}
-                      className="justify-base relative flex cursor-pointer items-center gap-x-3 hover:text-orange"
+                      as="div"
+                      className="flex flex-col items-center justify-center gap-y-2 text-white hover:text-orange transition-all duration-200"
                     >
-                      <div className={`${iconStyles}`}>{link.icon}</div>
-                      <div className={`${linkStyles}`}>{link.name}</div>
-                    </div>
-                    {isServiciiOpen && (
-                      <Drawer>
-                        <DrawerTrigger className="absolute left-0 right-0">
-                          Descoperiți Serviciile Noastre
-                        </DrawerTrigger>
-                        <DrawerContent as="div" className="rounded-t-2xl">
-                          <DrawerHeader>
-                            <DrawerTitle className="text-orange">
-                              Specialiști în Instalații Gaze Naturale
-                            </DrawerTitle>
-                            <DrawerDescription className="text-base font-semibold">
-                              Inovație, Durabilitate, Performanță
-                              <span className="my-4 block border-t border-orange"></span>
-                            </DrawerDescription>
-                          </DrawerHeader>
-                          {dropdownLinks.map((dropdownLink, dropdownIndex) => (
-                            <div
-                              key={dropdownIndex}
-                              onClick={() =>
-                                closeMenuAndNavigate(dropdownLink.path)
-                              }
-                              className="flex cursor-pointer gap-x-[4px] px-4 pb-6"
-                            >
-                              <span className="text-orange">&#9679;</span>
-                              <div className="hover hover:scale-[0.96]">
-                                <span>{dropdownLink.name}</span>
-                              </div>
-                            </div>
-                          ))}
-                          <DrawerFooter>
-                            <DrawerClose
-                              as="div"
-                              className="hover:bg-orange-hover mx-auto w-[50%] bg-orange px-3 py-3 text-white hover:scale-[0.98]"
-                            >
-                              Închide
-                            </DrawerClose>
-                          </DrawerFooter>
-                        </DrawerContent>
-                        <DrawerClose />
-                      </Drawer>
-                    )}
-                  </div>
+                      <div className=" text-orange">{link.icon}</div>
+                      <div className="text-base xs:text-lg font-semibold uppercase">
+                        {link.name}
+                      </div>
+                    </DrawerTrigger>
+                    <DrawerContent as="div" className="rounded-t-2xl p-6 bg-neutral-900">
+                      <DrawerHeader>
+                        <DrawerTitle className="text-orange text-lg font-bold">
+                          Specialiști în Instalații Gaze Naturale
+                        </DrawerTitle>
+                        <DrawerDescription className="text-white text-sm font-medium mt-2">
+                          Inovație, Durabilitate, Performanță
+                          <span className="my-4 block border-t border-orange"></span>
+                        </DrawerDescription>
+                      </DrawerHeader>
+                      <div className="mt-4">
+                        {dropdownLinks.map((dropdownLink, dropdownIndex) => (
+                          <div
+                            key={dropdownIndex}
+                            onClick={() =>
+                              closeMenuAndNavigate(dropdownLink.path)
+                            }
+                            className="flex items-center gap-x-3 px-4 py-2  rounded-md cursor-pointer transition-all duration-200"
+                          >
+                            <span className="text-orange text-lg">&#9679;</span>
+                            <span className="text-white hover:text-orange text-base font-medium">
+                              {dropdownLink.name}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                      <DrawerFooter>
+                        <DrawerClose
+                          as="div"
+                          className="hover:bg-orange-hover mx-auto w-full max-w-[200px] bg-orange px-3 py-3 text-center text-white font-semibold rounded-md transition-all duration-200"
+                        >
+                          Închide
+                        </DrawerClose>
+                      </DrawerFooter>
+                    </DrawerContent>
+                    <DrawerClose />
+                  </Drawer>
                 );
               } else {
                 return (
                   <Link
                     key={index}
                     href={link.path}
-                    className="justify-base flex items-center gap-x-3 hover:text-orange"
+                    className="flex flex-col items-center justify-center gap-y-2 text-white hover:text-orange transition-all duration-200"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    <div className={`${iconStyles}`}>{link.icon}</div>
-                    <div className={`${linkStyles}`}>{link.name}</div>
+                    <div className="text-orange">{link.icon}</div>
+                    <div className="text-base xs:text-lg font-semibold uppercase">
+                      {link.name}
+                    </div>
                   </Link>
                 );
               }
             })}
           </div>
           {/* Close button */}
-          <Button size="sm" onClick={() => setIsMenuOpen(false)}>
+          <Button
+            size="sm"
+            onClick={() => setIsMenuOpen(false)}
+            className="mt-8 bg-orange px-6 py-2 rounded-md text-white font-semibold hover:bg-orange-hover transition-all duration-200"
+          >
             Închide
           </Button>
         </div>
