@@ -1,3 +1,4 @@
+import Certificari from "@/components/home/Certificari";
 import Cta from "@/components/home/CTA";
 import Despre from "@/components/home/Despre";
 import Hero from "@/components/home/Hero";
@@ -11,6 +12,7 @@ export default function Home() {
       <Despre />
       <Servicii />
       <Review/>
+      <Certificari />
       <Cta />
     </>
   );
