@@ -42,7 +42,7 @@ export default function ContactDetails() {
         ))}
       </div>
       {/* Google Maps Integration */}
-      <div className="h-[450px] xl:container xl:px-20">
+      <div className="h-[500px] xl:container xl:px-12">
         <iframe
           title="Google Maps"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.3278729482417!2d-122.41941548468223!3d37.77928027975807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c9e56c2af%3A0x3e012e6c0b5fd37f!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1690213992591!5m2!1sen!2sus"
