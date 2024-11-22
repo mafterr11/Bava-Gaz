@@ -30,7 +30,7 @@
     @apply text-[18px] xl:text-[14px];
   }
   p {
-    @apply leading-8 text-white/80;
+    @apply leading-6 xl:leading-8 text-white/80;
   }
   a {
     @apply cursor-pointer transition-all duration-300;
