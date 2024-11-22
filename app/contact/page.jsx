@@ -1,3 +1,4 @@
+import ContactDetails from "@/components/contact/ContactDetails";
 import Intro from "@/components/Intro";
 
 const ContactPage = () => {
@@ -10,6 +11,7 @@ const ContactPage = () => {
           "Răspundem prompt tuturor solicitărilor. Așteptăm să ne contactezi!"
         }
       />
+      <ContactDetails />
     </div>
   );
 };

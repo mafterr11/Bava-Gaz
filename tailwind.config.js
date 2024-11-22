@@ -49,7 +49,7 @@ module.exports = {
   		},
   		backgroundImage: {
   			hero: 'url(/hero.webp)',
-  			meeting2: 'url(/meeting2.webp)',
+  			meeting2: 'url(/meeting2.jpg)',
   			tools: 'url(/tools.webp)'
   		},
   		keyframes: {
