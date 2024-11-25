@@ -46,7 +46,7 @@ const Header = () => {
               className="border-accent flex rounded-[50%] border-2"
             />
             <h3>
-              <span className="text-orange">Bava</span> Gaz Construct
+              <span className="text-orange">BAVA</span> GAZ CONSTRUCT
             </h3>
           </Link>
           {/* nav */}
