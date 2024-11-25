@@ -14,18 +14,18 @@ const Header = () => {
       <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-1.5 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:py-2.5 md:max-xl:justify-between xl:gap-x-32">
         {/* phone */}
         <div className="flex items-center gap-x-2">
-          <PhoneCall />{" "}
+          <PhoneCall className="text-orange"/>{" "}
           <a
             href="tel:+40755313662"
             target="blank"
-            className="text-lg font-bold text-orange"
+            className="text-lg font-bold"
           >
             +40.755.313.662
           </a>
         </div>
         {/* adress */}
         <p className="text-md hidden items-center gap-x-2 xl:flex">
-          <MapPin /> Str. Costache Sibiceanu NR.8, SECTOR 2 BUCUREȘTI, ROMÂNIA
+          <MapPin className="text-orange"/> Str. Strada Plantelor 5, Videle, Teleorman
         </p>
         {/* program */}
         <p className="text-md hidden items-center gap-x-2 md:flex">

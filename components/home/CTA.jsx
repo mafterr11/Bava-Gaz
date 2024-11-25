@@ -12,7 +12,7 @@ const Cta = () => {
             <h3 className="text-orange">
               Ajutor profesionist pentru instalația de gaze?
             </h3>
-            <h2 className="text-balance">
+            <h2 className="text-balance max-md:text-lg">
               Specialiștii noștri sunt la dispoziția dumneavoastră.
               Contactați-ne astăzi pentru o consultație gratuită!
             </h2>

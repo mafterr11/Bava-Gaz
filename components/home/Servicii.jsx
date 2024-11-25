@@ -63,7 +63,7 @@ export default function Servicii() {
             </p>
             <ul className="mb-5 flex flex-col space-y-1 pl-5 marker:text-orange max-md:items-center md:list-disc">
               {servicii.map((serviciu, index) => {
-                return <li key={index}>{serviciu.name}</li>;
+                return <li key={index}><span className="text-orange md:hidden">-</span> {serviciu.name} <span className="text-orange md:hidden">-</span></li>;
               })}
             </ul>
 
