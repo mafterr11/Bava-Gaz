@@ -34,9 +34,9 @@ const Footer = () => {
   return (
     <footer className="relative z-[2] w-full gap-y-8 border-t-2 border-orange bg-black font-nunitoSans">
       {/* Main inside container */}
-      <div className="mx-auto flex flex-col-reverse items-center justify-between py-8 xl:px-24 max-md:gap-y-12 lg:flex-row">
+      <div className="mx-auto flex flex-col-reverse items-center justify-between py-8 max-md:gap-y-12 lg:flex-row xl:px-24">
         {/* Left side */}
-        <div className="flex flex-col gap-y-4 items-center lg:items-start">
+        <div className="flex flex-col items-center gap-y-4 lg:items-start">
           <div className="flex items-center gap-x-2">
             {/* Logo */}
             <div className="h-20 w-20 md:h-24 md:w-24">
@@ -49,7 +49,7 @@ const Footer = () => {
               />
             </div>
             {/* Bava Gas Construct */}
-            <div className="flex flex-col items-center lg:items-start justify-center -space-y-2">
+            <div className="flex flex-col items-center justify-center -space-y-2 lg:items-start">
               <h2 className="text-orange">
                 Bava <span className="text-white">Gaz</span>
               </h2>
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
           </div>
           {/* ANPC */}
-          <div className="flex flex-col items-center lg:items-start -space-y-6">
+          <div className="flex flex-col items-center -space-y-6 lg:items-start">
             <a
               href="https://anpc.ro/ce-este-sal/"
               target="_blank"
@@ -86,14 +86,14 @@ const Footer = () => {
           </div>
         </div>
         {/* Right side */}
-        <div className="flex gap-x-16 lg:gap-x-20 flex-wrap max-md:flex-col max-md:items-center md:items-start max-md:gap-y-12">
+        <div className="flex flex-wrap gap-x-16 max-md:flex-col max-md:items-center max-md:gap-y-12 md:items-start lg:gap-x-20">
           <div>
-            <h2 className="mb-4 text-lg font-bold text-orange text-center md:text-left">
+            <h2 className="mb-4 text-center text-lg font-bold text-orange md:text-left">
               Serviciile noastre:
             </h2>
             <ul className="space-y-1 text-center md:text-left">
               {dropdownLinks.map((link, index) => (
-                <li key={index} className="md:list-disc marker:text-orange">
+                <li key={index} className="marker:text-orange md:list-disc">
                   <Link href={link.path}>
                     <span className="text-white hover:text-orange">
                       {link.name}
@@ -103,23 +103,25 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-          <div className="mx-auto max-w-md text-white text-center md:text-left">
+          <div className="mx-auto max-w-md text-center text-white md:text-left">
             <h2 className="mb-4 text-lg font-bold text-orange">
               Detalii de contact:
             </h2>
-            <p className="mb-2 flex items-center justify-center md:justify-start gap-x-2">
+            <p className="mb-2 flex items-center justify-center gap-x-2 md:justify-start">
               <PhoneCall className="text-orange" />
-              021.9176
+              +40.755.313.662
             </p>
-            <p className="mb-2 flex items-center justify-center md:justify-start gap-x-2">
+            <p className="mb-2 flex items-center justify-center gap-x-2 md:justify-start">
               <Mail className="text-orange" />
-              <a href="mailto:bavagaz@office.ro">bavagaz@office.ro</a>
+              <a href="mailto:bavagaz@office.ro">
+                officebavaconstruct@gmail.com
+              </a>
             </p>
-            <p className="mb-2 flex items-center justify-center md:justify-start gap-x-2 tracking-tighter">
+            <p className="mb-2 flex items-center justify-center gap-x-2 tracking-tighter md:justify-start">
               <MapPin className="text-orange" />
-              Str. Depozitului nr 3, sector 2 București, România
+              Str. Strada Plantelor 5, Videle, Teleorman
             </p>
-            <p className="mb-2 flex items-center justify-center md:justify-start gap-x-2">
+            <p className="mb-2 flex items-center justify-center gap-x-2 md:justify-start">
               <Clock9 className="text-orange" />
               Luni - Vineri: 8:00 - 17:00
             </p>

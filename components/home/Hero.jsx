@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Hero container */}
       <div className="flex h-[85vh] flex-col items-center justify-center">
         <div className="relative z-30 text-center font-nunitoSans">
-          <h3 className="mb-3 font-semibold text-orange">Bava Gaz Construct</h3>
+          <h3 className="mb-3 font-semibold text-orange">BAVA GAZ CONSTRUCT</h3>
           <h1 className="mb-6 px-2 md:max-xl:px-7 xl:max-w-5xl">
             Instalații Gaz, Electrice, Sanitare, Automatizări, Consultanță,
             Proiectare
