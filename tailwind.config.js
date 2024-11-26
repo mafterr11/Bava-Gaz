@@ -50,7 +50,7 @@ module.exports = {
   		backgroundImage: {
   			hero: 'url(/hero.webp)',
   			meeting2: 'url(/meeting2.jpg)',
-  			tools: 'url(/tools.webp)'
+  			CTA: 'url(/CTA.jpg)'
   		},
   		keyframes: {
   			'accordion-down': {

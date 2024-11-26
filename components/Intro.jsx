@@ -6,7 +6,7 @@ import Image from "next/image";
 const Intro = ({ src, title, subtitle }) => {
   return (
     <div className="mb-12 xl:mb-24">
-      <div className="relative h-64 w-full overflow-hidden xl:h-[24rem]">
+      <div className="relative h-64 w-full overflow-hidden xl:h-[28rem]">
         <Image
           src={src}
           alt="Despre TNG imagine intro"

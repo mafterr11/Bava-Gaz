@@ -51,9 +51,9 @@ const Footer = () => {
             {/* Bava Gas Construct */}
             <div className="flex flex-col items-center justify-center -space-y-2 lg:items-start">
               <h2 className="text-orange">
-                Bava <span className="text-white">Gaz</span>
+                BAVA <span className="text-white">GAZ</span>
               </h2>
-              <h2>Construct</h2>
+              <h2>CONSTRUCT</h2>
             </div>
           </div>
           {/* ANPC */}

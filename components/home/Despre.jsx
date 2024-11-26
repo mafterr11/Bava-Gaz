@@ -11,7 +11,7 @@ export default function Despre() {
           <div className="mb-12">
             <h2 className="mb-3 text-orange">Cine suntem?</h2>
             <p className="text-sm md:text-base">
-              Bava Gaz Construct SRL - lider în instalații de gaze, electrice și
+              Bava Gaz Construct SRL - lider în instalații de gaze și
               sanitare, precum și în automatizări și consultanță tehnică. Ne
               dedicăm să oferim soluții moderne și sigure, adaptate nevoilor
               fiecărui client. Cu o echipă de profesioniști cu experiență și
