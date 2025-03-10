@@ -2,7 +2,14 @@ import Intro from "@/components/Intro";
 import { ServiciiContent } from "@/components/servicii/ServiciiContent";
 import { constructMetadata } from "@/lib/utils";
 
-export const metadata = constructMetadata();
+export const metadata = constructMetadata({
+  title:
+    "Servicii - BAVA GAZ CONSTRUCT | Soluții Complete pentru Instalații de Gaze",
+  description:
+    "Oferim servicii profesionale pentru instalații de gaze naturale: extinderi rețea, branșamente, verificări, revizii și consultanță tehnică. Asigurăm siguranță și eficiență pentru fiecare proiect.",
+  keywords:
+    "servicii BAVA GAZ CONSTRUCT, instalații gaze, extinderi gaze, branșamente gaze, verificări instalații gaze, revizii centrale termice, consultanță tehnică gaze",
+});
 
 const Servicii = () => {
   return (
