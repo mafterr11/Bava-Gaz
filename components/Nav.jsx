@@ -6,7 +6,7 @@ import {
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList,
+  NavigationMenuList, 
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 
@@ -71,7 +71,7 @@ const Nav = ({ containerStyles, linkStyles }) => {
                     <Link
                       href="/servicii"
                       className={`${
-                        currentRoute === link.path
+                        currentRoute === link.path 
                           ? "decoration-accent active-link text-lg capitalize underline decoration-2 underline-offset-[0.5rem] hover:scale-[0.97]"
                           : "hover text-lg capitalize hover:scale-[0.97]"
                       } font-medium`}
