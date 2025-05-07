@@ -10,7 +10,7 @@ const nunitoSans = Nunito_Sans({
 });
 
 const roboto = Roboto({
-  variable: "--font-nunito-sans",
+  variable: "--font-roboto",
   subsets: ["latin"],
   weight: ["100", "300", "400", "500", "700", "900"],
   display: "swap",

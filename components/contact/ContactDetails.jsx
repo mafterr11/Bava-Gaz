@@ -24,7 +24,7 @@ export default function ContactDetails() {
 
   return (
     <>
-      <div className="mx-auto mb-8 grid max-w-[75%] grid-cols-3 md:max-xl:grid-cols-2 gap-x-12 xl:container max-md:grid-cols-1 max-xl:gap-y-7">
+      <div className="mx-auto mb-8 grid max-w-[75%] xl:max-w-[55%] grid-cols-3 md:max-xl:grid-cols-2 gap-x-12 max-md:grid-cols-1 max-xl:gap-y-7">
         {detalii.map((detaliu, index) => (
           <div
             key={index}

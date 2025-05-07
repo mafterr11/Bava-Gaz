@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Despre() {
   return (
-    <section className="container mx-auto max-w-screen-2xl px-4 py-16 md:px-8 md:py-24">
+    <section className="container mx-auto max-w-(--breakpoint-2xl) px-4 py-16 md:px-8 md:py-24">
       {/* container */}
       <div className="flex w-full flex-col items-center justify-center xl:gap-x-32 gap-y-8 md:flex-row">
         {/* Text Container */}

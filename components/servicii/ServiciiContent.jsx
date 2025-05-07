@@ -4,7 +4,7 @@ export const ServiciiContent = () => {
       {/* Header */}
      
       {/* Content container */}
-      <div className="mx-auto px-3 xl:container md:px-6 xl:w-[90%]">
+      <div className="mx-auto px-3  md:px-6 xl:w-[70%]">
         {/*  Extinderi rețea gaze naturale */}
         <div
           className="max-md:text-center mb-24 scroll-mt-40 xl:scroll-mt-40"

@@ -32,7 +32,7 @@ const dropdownLinks = [
 
 const Footer = () => {
   return (
-    <footer className="relative z-[2] w-full gap-y-8 border-t-2 border-orange bg-black font-nunitoSans">
+    <footer className="relative z-2 w-full gap-y-8 border-t-2 border-orange bg-black font-nunitoSans">
       {/* Main inside container */}
       <div className="mx-auto flex flex-col-reverse items-center justify-between py-8 max-md:gap-y-12 lg:flex-row xl:px-24">
         {/* Left side */}

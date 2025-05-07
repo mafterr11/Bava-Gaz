@@ -8,13 +8,13 @@ import { Clock9, MapPin, PhoneCall } from "lucide-react";
 const Header = () => {
   return (
     <header
-      className={`fixed left-0 right-0 top-0 z-50 w-full text-white transition-all duration-200 font-nunitoSans`}
+      className={`font-nunitoSans fixed top-0 right-0 left-0 z-50 w-full text-white transition-all duration-200`}
     >
       {/* Top container */}
       <div className="flex w-full items-center justify-center bg-[#082d64] px-10 py-1.5 font-semibold max-md:flex-col max-md:gap-y-1 md:px-16 md:py-2.5 md:max-xl:justify-between xl:gap-x-32">
         {/* phone */}
         <div className="flex items-center gap-x-2">
-          <PhoneCall className="text-orange"/>{" "}
+          <PhoneCall className="text-orange" />{" "}
           <a
             href="tel:+40755313662"
             target="blank"
@@ -25,7 +25,8 @@ const Header = () => {
         </div>
         {/* adress */}
         <p className="text-md hidden items-center gap-x-2 xl:flex">
-          <MapPin className="text-orange"/> Str. Strada Plantelor 5, Videle, Teleorman
+          <MapPin className="text-orange" /> Str. Strada Plantelor 5, Videle,
+          Teleorman
         </p>
         {/* program */}
         <p className="text-md hidden items-center gap-x-2 md:flex">
@@ -33,8 +34,8 @@ const Header = () => {
         </p>
       </div>
       {/* Bottom container */}
-      <div className="w-full border-t border-orange bg-black-heavy">
-        <div className="container flex w-[85%] items-center justify-between px-0 py-3 md:px-16 md:py-4 md:max-lg:justify-between xl:gap-x-32">
+      <div className="border-orange bg-black-heavy w-full border-t">
+        <div className="mx-auto flex w-[79%] items-center justify-between px-0 py-3 md:px-16 md:py-4 md:max-lg:justify-between xl:gap-x-32">
           {/* logo */}
           <Link href="/" className="flex items-center justify-center gap-x-4">
             <Image
